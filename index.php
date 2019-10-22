@@ -54,7 +54,7 @@ echo "Manden " . $c . " ned ad gaden."; // Dette udskriver sætningen med vores 
  $Navneord1= $_POST['Navneord1'];
  $Navneord2= $_POST['Navneord2'];
  $Navneord3= $_POST['Navneord3'];
- echo // Skriv din historie her.
+// Skriv din historie her. Start med echo
 }
 ?>
 </div>
