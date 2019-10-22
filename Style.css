@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,700,900,400italic,700italic,900italic|Playfair+Display:400,700,900,400italic,700italic,900italic|Rock+Salt:400);
+
+*,
+:before,
+:after {
+    box-sizing: border-box;
+    font: 'Playfair Display', sans-serif;
+
+}
+
+body {
+    background-color: #2a2d2e;
+    color: #e5e5e5;
+    margin: 0;
+}
+
+/* Chapter Title */
+.chapter-title {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCA2NCA2NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNjQgNjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCiAgICA8Zz4NCiAgICAJPHBhdGggZD0iTTAsMzJMMzIsMGwzMiwzMkwzMiw2NEwwLDMyeiBNOCwzMmwyNCwyNGwyNC0yNEwzMiw4TDgsMzJ6IE0xNiwzMmwxNi0xNmwxNiwxNkwzMiw0OEwxNiwzMnogTTI0LDMybDgsOGw4LThsLTgtOEwyNCwzMnoiIC8+DQogICAgPC9nPg0KPC9zdmc+) bottom center no-repeat;
+    background-size: 0.5em 0.5em;
+    font: 700 7vw/1.25 'Playfair Display', sans-serif;
+    letter-spacing: 0.125em;
+    margin: -10vh 0 1em 0;
+    padding: 1em 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.chapter-title:before,
+.chapter-title:after {
+    border: solid 0 #000;
+    border-width: 0.05em 0;
+    bottom: calc((0.125em / 2) * 3);
+    content: '';
+    height: 0.15em;
+    position: absolute;
+    width: calc(50% - (1em / 2));
+}
+
+.chapter-title:before {
+    left: 0;
+}
+
+.chapter-title:after {
+    right: 0;
+}
+
+h3{
+    text-align: center;
+    margin-top: -10vh;
+}
+
+.reglwrapper{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+
+.formwrapper{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.regl2, .regl1{
+    font: 10px 'Playfair Display', sans-serif;
+    text-align: center;
+}
+
+.historie{
+    font: 20px 'Playfair Display', sans-serif;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+input[type=text]{
+    border-radius: 10px;
+    padding-left: 5px;
+    border: 2px solid rgb(170, 164, 164);
+}
+
+input[type=submit]{
+margin-left: 33vw;
+margin-top: 2vh;
+background-color: #e5e5e5;
+border-radius: 10px;
+border: 2px solid rgb(170, 164, 164);
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
