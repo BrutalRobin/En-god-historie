@@ -9,7 +9,7 @@
 </head>
 <body>
 <h2 class="chapter-title">En God Historie</h2>
-<h3>Regler for String Operators (Se HTML kommentarer)</h3>
+<h3>Regler for String Operators (Se PHP kommentarer)</h3>
 
 <div class="reglwrapper">
 <div class=regl1>
